@@ -1,0 +1,46 @@
+// ######################################## //
+// ## INPUTS.SCSS ## //
+// ######################################## //
+
+
+.input {
+  color: $gray-8;
+  width: 100%;
+  padding: 12px 14px;
+  will-change: border;
+  -webkit-appearance: none;
+  font-size: 1em;
+  @include border-radius(3px !important);
+  border: 2px solid $gray-c;
+  height: auto;
+  outline: none;
+  box-shadow: none;
+
+  // Placeholder of Input
+  @include placeholder {
+    font-size: 1em;
+    font-weight: 300;
+    opacity: 0.5;
+    color: $gray-5;
+  }
+  
+  // Text Area
+  &.textarea {
+    height: auto;
+    resize: none;
+    overflow: auto;
+    padding: 14px;
+  }
+
+  // Read Only Input
+  &.read-only {
+    background-color: $white;
+  }
+}
+
+
+// Outline of inputs
+.input:focus {
+  border-color: $material-blue;
+  box-shadow: none;
+}

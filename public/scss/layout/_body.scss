@@ -1,0 +1,45 @@
+// ######################################## //
+// ## BODY.SCSS ## //
+// ######################################## //
+
+body {
+	font-color: $gray-3;
+	font-weight: 300;
+	font-size: 16px;
+}
+
+a:hover, a:focus {
+	text-decoration-skip: ink;
+}
+
+// Or Divider
+.divider {
+	position: relative;
+	text-align: center;
+	margin: 16px 0;
+	display: block;
+
+	// Creating divider
+	&:before {
+		content: '';
+		position: absolute;
+		height: 1px;
+		width: 100%;
+		top: 50%;
+		left: 0;
+		transform: translateY(-1px);
+		background: $gray-e;
+		z-index: 1;
+	}
+
+	// Or 
+	&:after {
+		content: attr(data-title);
+		position: relative;
+		padding: 0 24px;
+		background: $white;
+		z-index: 2;
+		color: rgba($material-blue-dark, .7);
+		font-family: inherit;
+	}
+}
