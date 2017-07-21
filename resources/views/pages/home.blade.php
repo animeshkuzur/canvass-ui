@@ -1,30 +1,12 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <meta name="theme-color" content="#4EBDE7" />
+@extends('layout.master')
 
-    <title> Technocrats </title>
-    <link rel="stylesheet" href="<?= asset('css/vendor/bootstrap.min.css'); ?>">
-    <link rel="stylesheet" href="<?= asset('css/vendor/flickity.css'); ?>">
-    <link href="<?= asset('css/vendor/ionicons.css'); ?>" rel="stylesheet">
-    <link href="<?= asset('css/vendor/font-awesome.min.css'); ?>" rel="stylesheet">
+@section('style')
+	<!--Custom Styles-->
+	<link rel="stylesheet" type="text/css" href="#">
+@endsection
 
-    <script src="<?= asset('js/vendor/jquery.min.js'); ?>"></script>
-    <script src="<?= asset('js/vendor/bootstrap.min.js'); ?>"></script>
-
-    <link rel="stylesheet" href="<?php echo asset('css/style.css'); ?>">
-
-
-
-<!--     <link rel="apple-touch-icon" href="{{ url('assets/images/favicon.png') }}">
-    <link rel="shortcut icon" href="{{ url('assets/images/favicon.png') }}"> -->
-    <link rel="stylesheet" type="text/css" href="">
-  </head>
-  <body>
-
-      <div class="landing-wrapper">
+@section('content')
+	 <div class="landing-wrapper">
         <section class="landing-banner">
           <div class="container">
             <a href="#" data-toggle="modal" data-target="#loginModal">
@@ -34,7 +16,7 @@
             </a>
             <div class="landing-banner-inner">
               <div class="banner-logo marginbottom-lg">
-                <img src="../public/images/hcl-logo.svg">
+                <img src="{{ URL::asset('images/hcl-logo.svg')}}">
               </div>
               <div class="technocrats-search" id="technocratsSearch">
                 <div class="input-group">
@@ -146,12 +128,11 @@
 
         </div>
       </div>
+@endsection
 
-    <script src="<?= asset('js/vendor/flickity.pkgd.min.js'); ?>"></script>
-    <script src="<?= asset('js/vendor/typeahead.bundle.js'); ?>"></script>
-    <script src="<?= asset('js/typeahead.js'); ?>"></script>
-    <script src="<?= asset('js/main.js'); ?>"></script>
-
-
-  </body>
-  </html>
+@section('script')
+	<script src="{{ URL::asset('js/vendor/flickity.pkgd.min.js') }}"></script>
+    <script src="{{ URL::asset('js/vendor/typeahead.bundle.js') }}"></script>
+    <script src="{{ URL::asset('js/typeahead.js') }}"></script>
+    <script src="{{ URL::asset('js/main.js')}}"></script>
+@endsection
