@@ -9,13 +9,13 @@
 
 // Landing Page Banner
 .landing-banner {
-  background-color: $material-blue;
+  background-color: $white;
   height: 100vh;
   position: relative;
 
   // Login button Wrapper
   .login-button {
-    color: #fff;
+    color: $material-blue;
     font-size: 1.5em;
     letter-spacing: 1px;
     margin: 50px 60px;
@@ -62,14 +62,23 @@
       }
     }
 
-    // Logo Subtext
-    .logo-sub {
-      font-size: 15px;
-      color: $white;
-      text-align: right;
-      width: 275px;
-      margin: 0 auto;
+    // Logo Text
+    .logo-text {
+      font-size: 5em;
+      font-weight: 300;
+      line-height: 1.5;
+      letter-spacing: 2px;
+      color: $material-blue;
     }
+
+    // Logo Subtext
+    // .logo-sub {
+    //   font-size: 15px;
+    //   color: $white;
+    //   text-align: right;
+    //   width: 275px;
+    //   margin: 0 auto;
+    // }
   }
 
 }

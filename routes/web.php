@@ -31,3 +31,4 @@ Route::get('/register', function () {
 
 
 Route::get('/',['as' => 'home','uses' => 'HomeController@index']);
+Route::get('/search',['as' => 'search','uses' => 'HomeController@search']);

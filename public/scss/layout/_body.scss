@@ -3,13 +3,21 @@
 // ######################################## //
 
 body {
-	font-color: $gray-3;
+	color: $gray-5;
 	font-weight: 300;
 	font-size: 16px;
+	background-color: darken($white, 2%);
 }
 
 a:hover, a:focus {
 	text-decoration-skip: ink;
+	outline: none;
+}
+
+// Page Wrapper
+.page-wrapper {
+	margin-top: 60px;
+	padding-top: 30px;
 }
 
 // Or Divider
