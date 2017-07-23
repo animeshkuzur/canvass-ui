@@ -155,6 +155,10 @@
               </div>
             </a>
 
+            <div class="sentiment-title static-box padding-sm margintop-lg text-center">
+              <span>Social Analysis Report</span>
+            </div>
+
             <div class="chart static-box">
               <ul class="chart-inner" data-title="PHP">
                 <li class="yes" style="transform: rotate(21.6deg)">
@@ -168,6 +172,21 @@
                 </li>
               </ul>
             </div>
+
+            <div class="chart static-box">
+              <ul class="chart-inner" data-title="PHP">
+                <li class="yes" style="transform: rotate(21.6deg)">
+                  <span class="chart-label" style="transform: rotate(-21.6deg)">Yes</span>
+                </li>
+                <li class="neutral" style="transform: rotate(79.2deg)">
+                  <span class="chart-label" style="transform: rotate(-79.2deg)">Neutral</span>
+                </li>
+                <li class="no" style="transform: rotate(180deg)">
+                  <span class="chart-label" style="transform: rotate(-180deg)">No</span>
+                </li>
+              </ul>
+            </div>
+
           </div>
 
         </div>

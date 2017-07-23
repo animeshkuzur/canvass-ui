@@ -6,7 +6,7 @@
 // Chart Wrapper
 .chart {
   padding: 20px;
-  margin-top: 30px;
+  margin-top: 3px;
 }
 
 .chart-inner {
@@ -46,8 +46,9 @@
   .chart-label {
     position: absolute;
     font-size: 0.6em;
-    font-weight: 400;
-    color: $gray-a;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: $gray-8;
   }
 
   li {
@@ -61,9 +62,6 @@
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
     transform-origin: 50% 0;
-    animation-fill-mode: forwards;
-    animation-duration: 0.4s;
-    animation-timing-function: linear;
     transform-style: preserve-3d;
     backface-visibility: hidden;
 
@@ -99,53 +97,5 @@
         left: 10px;
       }
     }
-  }
-}
-
-
-// ## ANIMATIONS ## //
-@mixin yes($yes) {
-  @keyframes rotate-one {
-    100% {
-    transform: rotate(calc($yes/100)*180);
-      /**
-       * 12% => 21.6deg
-       */
-    }
-  }
-}
-
-@keyframes rotate-one {
-  100% {
-    transform: rotate(21.6deg);
-    /**
-     * 12% => 21.6deg
-     */
-  }
-}
- 
-@keyframes rotate-two {
-  0% {
-    transform: rotate(21.6deg);
-  }
-  100% {
-    transform: rotate(79.2deg);
-    /**
-     * 32% => 57.6deg 
-     * 57.6 + 21.6 => 79.2deg
-     */
-  }
-}
- 
-@keyframes rotate-three {
-  0% {
-    transform: rotate(79.2deg);
-  }
-  100% {
-    transform: rotate(180deg);
-    /**
-     * 34% => 61.2deg 
-     * 61.2 + 79.2 => 140.4deg
-     */
   }
 }
