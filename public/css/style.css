@@ -1175,7 +1175,8 @@ a:hover, a:focus {
   box-shadow: 0 0 17px rgba(0, 0, 0, 0.1);
   text-align: center; }
   .search-tabs .search-tab-item {
-    display: inline-block; }
+    display: inline-block;
+    margin: 0 20px; }
     .search-tabs .search-tab-item input[type="radio"] {
       position: absolute;
       visibility: hidden; }
@@ -1187,6 +1188,7 @@ a:hover, a:focus {
       -moz-user-select: none;
       -ms-user-select: none;
       user-select: none;
+      letter-spacing: 1px;
       font-size: 1em;
       font-weight: 400;
       text-transform: uppercase;
@@ -1264,6 +1266,79 @@ a:hover, a:focus {
       text-transform: uppercase;
       letter-spacing: 1px;
       font-weight: 400; }
+
+.profile-box {
+  padding: 20px; }
+  .profile-box .intro {
+    text-align: center; }
+    .profile-box .intro .name {
+      font-size: 1.2em;
+      font-weight: 400; }
+    .profile-box .intro .email {
+      font-size: 0.875em;
+      color: #01A1DD; }
+    .profile-box .intro .member-since {
+      font-size: 0.75em;
+      color: #888888; }
+  .profile-box .rank {
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eeeeee;
+    position: relative;
+    z-index: 1; }
+    .profile-box .rank:before {
+      content: "\f2fc";
+      font-family: 'Ionicons';
+      position: absolute;
+      z-index: -1;
+      font-size: 6em;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      color: whitesmoke; }
+    .profile-box .rank .rank-number {
+      font-size: 2em;
+      font-weight: 400;
+      color: #FF7700;
+      z-index: 1; }
+    .profile-box .rank .rank-text {
+      font-weight: 400;
+      text-transform: uppercase;
+      font-size: 0.75em;
+      color: #888888; }
+  .profile-box .stats {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #eeeeee;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .profile-box .stats .stats-item {
+      text-align: center;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      cursor: pointer; }
+      .profile-box .stats .stats-item .stats-icon {
+        -webkit-filter: contrast(1%) brightness(120%);
+        filter: contrast(1%) brightness(120%);
+        width: 20px;
+        margin-bottom: 5px; }
+        .profile-box .stats .stats-item .stats-icon.ion-thumbsup {
+          font-size: 18px; }
+      .profile-box .stats .stats-item .stats-number {
+        font-size: 1.2em;
+        font-weight: 400;
+        color: #46A417; }
 
 .question-page-box .question-wrapper {
   border-bottom: none; }

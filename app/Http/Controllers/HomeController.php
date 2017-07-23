@@ -17,4 +17,8 @@ class HomeController extends Controller
     public function question(){
     	return view('pages.question');
     }
+
+    public function profile(){
+    	return view('pages.profile');
+    }
 }

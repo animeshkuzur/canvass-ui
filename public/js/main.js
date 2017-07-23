@@ -8,4 +8,7 @@ $(document).ready(function() {
         placeholder: "Select a Category"
       });
   });
+
+  // Initialize tooltip
+   $('[data-toggle="tooltip"]').tooltip();
 });

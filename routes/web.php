@@ -33,3 +33,4 @@ Route::get('/register', function () {
 Route::get('/',['as' => 'home','uses' => 'HomeController@index']);
 Route::get('/search',['as' => 'search','uses' => 'HomeController@search']);
 Route::get('/question',['as' => 'question','uses' => 'HomeController@question']);
+Route::get('/profile',['as' => 'profile','uses' => 'HomeController@profile']);
