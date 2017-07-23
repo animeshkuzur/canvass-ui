@@ -5,10 +5,10 @@
 .btn-primary {
 	border-radius: 2px;
     background-color: $material-blue;
-    border-color: $material-blue;
-    font-size: 1.2em;
+    border: 1px solid  $material-blue;
+    font-size: 0.875em;
     text-transform: uppercase;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1px;
     padding: 8px 20px;
     @include transition();
@@ -22,8 +22,15 @@
 
 .btn-outline {
 	color: $material-blue;
-	border-color: $material-blue;
+	border: 2px solid $material-blue;
 	background-color: transparent;
+
+	// On Hover or focus
+	&:hover, &:focus {
+		background-color: rgba($material-blue, 0.1);
+		border-color: $material-blue;
+		color: $material-blue;
+	}
 }
 
 // Facebook Login Button

@@ -77,11 +77,12 @@
   // Question Content
   .question-content {
     border-right: 1px solid $gray-e;
+    padding-right: 15px;
 
     // Question
     .question {
       font-size: 1.2em;
-      font-weight: 500;
+      font-weight: 400;
       color: $gray-5;
     }
 
@@ -93,9 +94,9 @@
 
     // Action Button Group
     .action-btn-group {
+      font-size: 0.875em;
       display: flex;
       align-items: center;
-      font-size: 0.875em;
 
       // Link
       a {
@@ -110,7 +111,7 @@
 
         // Number of answers
         &.number-answers {
-          color: $material-red;
+          color: $material-pink;
         }
 
         // Number of votes
@@ -118,16 +119,22 @@
           color: $material-purple;
         }
 
-        // Time
-        &.time {
-          color: $material-green;
-        }
-
         // Null Class
         &.null {
           color: $gray-d;
         }
 
+      }
+
+      // Actions
+      .actions {
+        flex: 1;
+      }
+
+      // Time
+      .time {
+        color: $material-teal;
+        margin-right: 0;
       }
     }
   }

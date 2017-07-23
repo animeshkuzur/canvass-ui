@@ -16,8 +16,14 @@ a:hover, a:focus {
 
 // Page Wrapper
 .page-wrapper {
-	margin-top: 60px;
+	margin: 60px 0 30px;
 	padding-top: 30px;
+}
+
+// Static Box
+.static-box {
+	box-shadow: 0 0 2px rgba($black, 0.05);
+	background-color: $white;
 }
 
 // Or Divider

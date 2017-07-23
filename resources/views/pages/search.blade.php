@@ -49,7 +49,7 @@
         </div>
         <div class="search-tab-item">
           <input type="radio" name="search" id="button2"/>
-          <label class="tab-label" for="button2" onclick></span><span class="tab-label-text text-center">Unanswered</span></label>
+          <label class="tab-label" for="button2" onclick></span><span class="tab-label-text text-center">Not Answered</span></label>
         </div>
       </div>
 
@@ -60,13 +60,13 @@
               <div class="category-head text-uppercase marginbottom-lg">Categories</div>
               <div>
                 <label class="control control--checkbox">First category
-                  <input type="checkbox" checked="checked"/>
+                  <input type="checkbox" />
                   <div class="control--indicator"></div>
                 </label>
               </div>
               <div>
                 <label class="control control--checkbox">Second Category
-                  <input type="checkbox" checked="checked"/>
+                  <input type="checkbox" checked/>
                   <div class="control--indicator"></div>
                 </label>
               </div>
@@ -83,23 +83,25 @@
                       <a href="#"><div class="question">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores necessitatibus quos, libero pariatur ea voluptate</div></a>
                       <div class="question-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, commodi, ex. A modi, enim vitae. Odit saepe quae dolorem ab rerum maxime qui harum, hic, cupiditate ex eligendi porro, sed.</div>
                       <div class="action-btn-group margintop-md">
-                        <!-- Pass Class null in action-btn if no answers or votes -->
-                        <a href="#">
-                          <div class="number-answers action-btn">
-                            <i class="ion-android-textsms paddingright-xs"></i>
-                            <span>5 Answers</span>
-                          </div>
-                        </a>
-                        <a href="#">
-                          <div class="votes action-btn">
-                            <i class="ion-arrow-up-c paddingright-xs"></i>
-                            <span>43 Votes</span>
-                          </div>
-                        </a>
-                        <div class="time action-btn">
+                        <div class="actions">
+                          <!-- Pass Class null in action-btn if no answers or votes -->
+                          <a href="#">
+                            <span class="number-answers action-btn">
+                              <i class="ion-android-textsms paddingright-xs"></i>
+                              <span>5 Answers</span>
+                            </span>
+                          </a>
+                          <a href="#">
+                            <span class="votes action-btn">
+                              <i class="ion-arrow-up-c paddingright-xs"></i>
+                              <span>43 Votes</span>
+                            </span>
+                          </a>
+                        </div>
+                        <span class="time">
                           <i class="ion-clock paddingright-xs"></i>
                           <span>2017-07-12 10:02:53</span>
-                        </div>
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -121,23 +123,25 @@
                       <a href="#"><div class="question">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores necessitatibus quos, libero pariatur ea voluptate</div></a>
                       <div class="question-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, commodi, ex. A modi, enim vitae. Odit saepe quae dolorem ab rerum maxime qui harum, hic, cupiditate ex eligendi porro, sed.</div>
                       <div class="action-btn-group margintop-md">
-                        <a href="#">
+                        <div class="actions">
                           <!-- Pass Class null in action-btn if no answers or votes -->
-                          <div class="number-answers action-btn null">
-                            <i class="ion-android-textsms paddingright-xs"></i>
-                            <span>0 Answers</span>
-                          </div>
-                        </a>
-                        <a href="#">
-                          <div class="votes action-btn null">
-                            <i class="ion-arrow-up-c paddingright-xs"></i>
-                            <span>0 Votes</span>
-                          </div>
-                        </a>
-                        <div class="time action-btn">
+                          <a href="#">
+                            <span class="number-answers action-btn null">
+                              <i class="ion-android-textsms paddingright-xs"></i>
+                              <span>5 Answers</span>
+                            </span>
+                          </a>
+                          <a href="#">
+                            <span class="votes action-btn null">
+                              <i class="ion-arrow-up-c paddingright-xs"></i>
+                              <span>43 Votes</span>
+                            </span>
+                          </a>
+                        </div>
+                        <span class="time">
                           <i class="ion-clock paddingright-xs"></i>
                           <span>2017-07-12 10:02:53</span>
-                        </div>
+                        </span>
                       </div>
                     </div>
                   </div>
