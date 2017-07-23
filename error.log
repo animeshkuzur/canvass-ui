@@ -1,237 +1,278 @@
-2017/07/21 23:58:33 [error] 13839#13839: *6 open() "/srv/http/canvass-ui/public/public/images/hcl-logo.svg" failed (2: No such file or directory), client: 127.0.0.1, server: canvass-ui.dev, request: "GET /public/images/hcl-logo.svg HTTP/1.1", host: "canvass-ui.dev", referrer: "http://canvass-ui.dev/"
-2017/07/21 23:58:57 [error] 13839#13839: *1 open() "/srv/http/canvass-ui/public/public/images/hcl-logo.svg" failed (2: No such file or directory), client: 127.0.0.1, server: canvass-ui.dev, request: "GET /public/images/hcl-logo.svg HTTP/1.1", host: "canvass-ui.dev", referrer: "http://canvass-ui.dev/"
-2017/07/21 23:58:58 [error] 13839#13839: *1 open() "/srv/http/canvass-ui/public/public/images/hcl-logo.svg" failed (2: No such file or directory), client: 127.0.0.1, server: canvass-ui.dev, request: "GET /public/images/hcl-logo.svg HTTP/1.1", host: "canvass-ui.dev", referrer: "http://canvass-ui.dev/"
-2017/07/22 00:44:29 [error] 13839#13839: *17 open() "/srv/http/canvass-ui/public/public/images/hcl-logo.svg" failed (2: No such file or directory), client: 127.0.0.1, server: canvass-ui.dev, request: "GET /public/images/hcl-logo.svg HTTP/1.1", host: "canvass-ui.dev", referrer: "http://canvass-ui.dev/"
-2017/07/22 00:44:29 [error] 13839#13839: *17 open() "/srv/http/canvass-ui/public/public/images/hcl-logo.svg" failed (2: No such file or directory), client: 127.0.0.1, server: canvass-ui.dev, request: "GET /public/images/hcl-logo.svg HTTP/1.1", host: "canvass-ui.dev", referrer: "http://canvass-ui.dev/"
-2017/07/22 00:44:33 [error] 13839#13839: *17 open() "/srv/http/canvass-ui/public/public/images/hcl-logo.svg" failed (2: No such file or directory), client: 127.0.0.1, server: canvass-ui.dev, request: "GET /public/images/hcl-logo.svg HTTP/1.1", host: "canvass-ui.dev", referrer: "http://canvass-ui.dev/"
-2017/07/22 00:44:33 [error] 13839#13839: *17 open() "/srv/http/canvass-ui/public/public/images/hcl-logo.svg" failed (2: No such file or directory), client: 127.0.0.1, server: canvass-ui.dev, request: "GET /public/images/hcl-logo.svg HTTP/1.1", host: "canvass-ui.dev", referrer: "http://canvass-ui.dev/"
-2017/07/22 00:45:10 [error] 13839#13839: *17 open() "/srv/http/canvass-ui/public/public/images/hcl-logo.svg" failed (2: No such file or directory), client: 127.0.0.1, server: canvass-ui.dev, request: "GET /public/images/hcl-logo.svg HTTP/1.1", host: "canvass-ui.dev", referrer: "http://canvass-ui.dev/"
-2017/07/22 00:45:11 [error] 13839#13839: *17 open() "/srv/http/canvass-ui/public/public/images/hcl-logo.svg" failed (2: No such file or directory), client: 127.0.0.1, server: canvass-ui.dev, request: "GET /public/images/hcl-logo.svg HTTP/1.1", host: "canvass-ui.dev", referrer: "http://canvass-ui.dev/"
-2017/07/22 00:45:45 [error] 13839#13839: *17 open() "/srv/http/canvass-ui/public/public/images/hcl-logo.svg" failed (2: No such file or directory), client: 127.0.0.1, server: canvass-ui.dev, request: "GET /public/images/hcl-logo.svg HTTP/1.1", host: "canvass-ui.dev", referrer: "http://canvass-ui.dev/"
-2017/07/22 00:45:45 [error] 13839#13839: *17 open() "/srv/http/canvass-ui/public/public/images/hcl-logo.svg" failed (2: No such file or directory), client: 127.0.0.1, server: canvass-ui.dev, request: "GET /public/images/hcl-logo.svg HTTP/1.1", host: "canvass-ui.dev", referrer: "http://canvass-ui.dev/"
-2017/07/22 00:45:55 [error] 13839#13839: *17 open() "/srv/http/canvass-ui/public/public/images/hcl-logo.svg" failed (2: No such file or directory), client: 127.0.0.1, server: canvass-ui.dev, request: "GET /public/images/hcl-logo.svg HTTP/1.1", host: "canvass-ui.dev", referrer: "http://canvass-ui.dev/"
-2017/07/22 00:45:55 [error] 13839#13839: *17 open() "/srv/http/canvass-ui/public/public/images/hcl-logo.svg" failed (2: No such file or directory), client: 127.0.0.1, server: canvass-ui.dev, request: "GET /public/images/hcl-logo.svg HTTP/1.1", host: "canvass-ui.dev", referrer: "http://canvass-ui.dev/"
-2017/07/22 00:46:30 [error] 13839#13839: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+2017/07/15 21:52:27 [error] 8110#8110: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:46:39 [error] 13839#13839: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Com
+2017/07/15 21:52:30 [error] 8110#8110: *1 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:48:16 [error] 13839#13839: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Com
+2017/07/18 14:14:52 [error] 8110#8110: *24 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:48:21 [error] 13839#13839: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:13:24 [error] 8110#8110: *65 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:48:23 [error] 13839#13839: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:19:33 [error] 8110#8110: *79 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:48:24 [error] 13839#13839: *17 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:23:12 [error] 8110#8110: *83 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:51:41 [error] 13839#13839: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:23:14 [error] 8110#8110: *83 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:51:41 [error] 13839#13839: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:25:53 [error] 8110#8110: *88 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:51:42 [error] 13839#13839: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:25:57 [error] 8110#8110: *88 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:51:42 [error] 13839#13839: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:26:51 [error] 8110#8110: *88 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:51:42 [error] 13839#13839: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:27:23 [error] 8110#8110: *88 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:51:42 [error] 13839#13839: *39 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:29:59 [error] 8110#8110: *94 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:52:59 [error] 13839#13839: *46 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:30:01 [error] 8110#8110: *94 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:53:02 [error] 13839#13839: *46 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:30:03 [error] 8110#8110: *94 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:53:03 [error] 13839#13839: *46 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:30:04 [error] 8110#8110: *94 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
-2017/07/22 00:53:04 [error] 13839#13839: *46 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:30:05 [error] 8110#8110: *94 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
-#4 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(114): Illuminate\Log\Writer->writeLog('error', Object(UnexpectedValue...
-PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/canvass-ui/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
 Stack trace:
-#0 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
-#1 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
-#2 /srv/http/canvass-ui/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#3 /srv/http/canvass-ui/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
-#4 /srv/http/canvass-ui
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:30:06 [error] 8110#8110: *94 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:30:52 [error] 8110#8110: *94 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:31:46 [error] 8110#8110: *94 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/19 00:32:20 [error] 8110#8110: *94 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illu...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/srv/http/hackerearth_technocrats/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /srv/http/hackerearth_technocrats/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /srv/http/hackerearth_technocrats/vendor/laravel/framework/src/Illuminate/Log/Writer.php(203): Monolog\Logger->error(Object(Symfony\Co
+2017/07/21 20:50:08 [error] 8110#8110: *1506 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use App\UserPreference as UserPreference because the name is already in use in /srv/http/hackerearth_technocrats/app/Http/Controllers/ProfileController.php on line 9" while reading response header from upstream, client: 127.0.0.1, server: hackerearth.dev, request: "GET /user/1 HTTP/1.1", upstream: "fastcgi://unix:/run/php-fpm/php-fpm.sock:", host: "hackerearth.dev", referrer: "http://hackerearth.dev/question/1"
+2017/07/23 11:14:52 [error] 13839#13839: *463 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /srv/http/hackerearth_technocrats/storage/framework/views/d6fd0ece967f3c93a8d8962217882a9ecf832849.php on line 39" while reading response header from upstream, client: 127.0.0.1, server: hackerearth.dev, request: "GET /question/3 HTTP/1.1", upstream: "fastcgi://unix:/run/php-fpm/php-fpm.sock:", host: "hackerearth.dev", referrer: "http://hackerearth.dev/question/3"
+2017/07/23 22:39:42 [error] 401#401: *87 open() "/srv/http/hackerearth_technocrats/public/css/vendor/bootstrap.min.css" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /css/vendor/bootstrap.min.css HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *87 open() "/srv/http/hackerearth_technocrats/public/css/vendor/flickity.css" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /css/vendor/flickity.css HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *87 open() "/srv/http/hackerearth_technocrats/public/css/vendor/select2.min.css" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /css/vendor/select2.min.css HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *87 open() "/srv/http/hackerearth_technocrats/public/css/vendor/ionicons.css" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /css/vendor/ionicons.css HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *87 open() "/srv/http/hackerearth_technocrats/public/css/vendor/font-awesome.min.css" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /css/vendor/font-awesome.min.css HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *87 open() "/srv/http/hackerearth_technocrats/public/js/vendor/jquery.min.js" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /js/vendor/jquery.min.js HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *87 open() "/srv/http/hackerearth_technocrats/public/js/vendor/bootstrap.min.js" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /js/vendor/bootstrap.min.js HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *87 open() "/srv/http/hackerearth_technocrats/public/css/style.css" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /css/style.css HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *87 open() "/srv/http/hackerearth_technocrats/public/js/vendor/flickity.pkgd.min.js" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /js/vendor/flickity.pkgd.min.js HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *87 open() "/srv/http/hackerearth_technocrats/public/js/vendor/select2.min.js" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /js/vendor/select2.min.js HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *87 open() "/srv/http/hackerearth_technocrats/public/js/main.js" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /js/main.js HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *87 open() "/srv/http/hackerearth_technocrats/public/js/vendor/bootstrap.min.js" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /js/vendor/bootstrap.min.js HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *91 open() "/srv/http/hackerearth_technocrats/public/css/style.css" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /css/style.css HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *91 open() "/srv/http/hackerearth_technocrats/public/js/vendor/flickity.pkgd.min.js" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /js/vendor/flickity.pkgd.min.js HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *91 open() "/srv/http/hackerearth_technocrats/public/js/vendor/select2.min.js" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /js/vendor/select2.min.js HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
+2017/07/23 22:39:43 [error] 401#401: *91 open() "/srv/http/hackerearth_technocrats/public/js/main.js" failed (2: No such file or directory), client: 127.0.0.1, server: hackerearth.dev, request: "GET /js/main.js HTTP/1.1", host: "hackerearth.dev", referrer: "http://hackerearth.dev/"
