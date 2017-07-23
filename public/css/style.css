@@ -222,6 +222,9 @@
   max-width: initial;
   background-color: #3b5998;
   border-color: #3b5998;
+  padding: 12px 20px;
+  font-size: 1em;
+  font-weight: 300;
   color: #FFFFFF;
   width: 100%;
   text-align: center;
@@ -271,6 +274,9 @@
   justify-content: center;
   position: relative;
   max-width: initial;
+  padding: 12px 20px;
+  font-size: 1em;
+  font-weight: 300;
   background-color: #0084b4;
   border-color: #0084b4;
   color: #FFFFFF;
@@ -320,6 +326,9 @@
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  padding: 12px 20px;
+  font-size: 1em;
+  font-weight: 300;
   position: relative;
   color: rgba(0, 60, 88, 0.7);
   border: 2px solid rgba(0, 60, 88, 0.3);
