@@ -2,7 +2,7 @@
 // ## TYPEAHEAD.SCSS ## //
 // ######################################## //
 
-// VIden Search Wrapper
+// Search Wrapper
 .technocrats-search {
   position: relative;
   left: 50%;
@@ -10,16 +10,6 @@
   box-shadow: 0px 0px 30px rgba($black, 0.08);
   border-radius: 4px;
   @include transition();
-
-  // On Hover or focus
-  &:hover, &:focus {
-  box-shadow: 0px 0px 40px rgba($black, 0.1);
-  }
-}
-
-.twitter-typeahead {
-  display: block !important;
-  color: $gray-6;
 
   .typeahead {
     border: none;
@@ -35,6 +25,31 @@
       color: $gray-9;
     }
   }
+
+  // On Hover or focus
+  &:hover, &:focus {
+  box-shadow: 0px 0px 40px rgba($black, 0.1);
+  }
+}
+
+.twitter-typeahead {
+  display: block !important;
+  color: $gray-6;
+
+  // .typeahead {
+  //   border: none;
+  //   color: $gray-6;
+  //   width: 100%;
+  //   padding: 14px 16px;
+  //   font-size: 21px;
+  //   outline: none;
+  //   border-radius: 4px 0 0 4px;
+  //   height: auto;
+
+  //   @include placeholder {
+  //     color: $gray-9;
+  //   }
+  // }
 
   .tt-menu {
     top: calc(100% + 2px) !important;

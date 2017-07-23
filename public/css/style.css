@@ -422,13 +422,7 @@
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
-  .technocrats-search:hover, .technocrats-search:focus {
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1); }
-
-.twitter-typeahead {
-  display: block !important;
-  color: #666666; }
-  .twitter-typeahead .typeahead {
+  .technocrats-search .typeahead {
     border: none;
     color: #666666;
     width: 100%;
@@ -437,16 +431,22 @@
     outline: none;
     border-radius: 4px 0 0 4px;
     height: auto; }
-    .twitter-typeahead .typeahead.placeholder {
+    .technocrats-search .typeahead.placeholder {
       color: #999999; }
-    .twitter-typeahead .typeahead:-moz-placeholder {
+    .technocrats-search .typeahead:-moz-placeholder {
       color: #999999; }
-    .twitter-typeahead .typeahead::-moz-placeholder {
+    .technocrats-search .typeahead::-moz-placeholder {
       color: #999999; }
-    .twitter-typeahead .typeahead:-ms-input-placeholder {
+    .technocrats-search .typeahead:-ms-input-placeholder {
       color: #999999; }
-    .twitter-typeahead .typeahead::-webkit-input-placeholder {
+    .technocrats-search .typeahead::-webkit-input-placeholder {
       color: #999999; }
+  .technocrats-search:hover, .technocrats-search:focus {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1); }
+
+.twitter-typeahead {
+  display: block !important;
+  color: #666666; }
   .twitter-typeahead .tt-menu {
     top: calc(100% + 2px) !important;
     background-color: #FFFFFF;
